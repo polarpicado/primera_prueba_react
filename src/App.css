@@ -32,7 +32,33 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.meme span {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  font-size: 45px;
+  color: white;
+  text-transform: uppercase;
+  /*black border text*/
+  text-shadow: 2px 0 0 #000, -5px 0 0 #000, 0 5px 0 #000, 0 -5px 0 #000, 2.5px 2.5px #000, -2.5px -2.5px 0 #000, 2.5px -2.5px 0 #000, -2.5px 2.5px 0 #000;
+}
+
+.meme span:nth-child(1) {
+  margin-top: 50px;
+}
+
+.meme span:nth-child(3) {
+  margin-top: 480px;
+}
+
+
+.meme img {
+  width: 100%;
+  height: auto;
 }
